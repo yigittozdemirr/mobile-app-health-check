@@ -1,70 +1,73 @@
-# mobile-app-health
-🇺🇸 English Version
-🎯 Project Overview
-This project was developed as part of a Mobile App Development Challenge. The goal is to transform complex medical instructions (like drug preparation and surgical prep) into a user-friendly, interactive mobile experience. The app focuses on "Rational Drug Use" (Akılcı İlaç Kullanımı) to prevent medical errors.
+# 🏥 MedGuide: Akılcı İlaç & Sağlık Asistanı
 
-✨ Key Features
-Gamified Sequencing: Interactive "Ordering Tasks" for preparing medications (e.g., antibiotic powder suspension) with instant feedback modals.
+[![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Educational Modules: Comprehensive guides on "What is Rational Drug Use?" and "Colonoscopy Preparation Steps" using an accordion-style UI.
+> **TR:** Karmaşık tıbbi talimatları etkileşimli ve anlaşılır bir mobil deneyime dönüştüren dijital sağlık rehberi.
+> 
+> **EN:** A digital health guide that transforms complex medical instructions into an interactive and easy-to-understand mobile experience.
 
-Knowledge Quizzes: 10-question multiple-choice tests to evaluate user comprehension with progress tracking.
+---
 
-Modern Navigation: Seamless transitions using Drawer (Sidebar) and Stack navigation for a professional feel.
+## 🔗 Live Preview / Canlı Önizleme
+Uygulamayı doğrudan test etmek için aşağıdaki linki kullanabilirsiniz:
+👉 **[Open in Expo (Live Preview)](https://3002-706a42d4-1556-4cb3-bb42-665fb7d06121.orchids.cloud/)**
 
-Clinical UI/UX: A clean, trust-inspiring color palette (Blue, Medical Green, and Warning Red) optimized for readability.
+---
 
-🛠️ Tech Stack
-Framework: React Native + Expo ⚛️
+## 🇹🇷 Türkçe Versiyon
 
-Navigation: React Navigation (Drawer & Stack)
+### 🎯 Proje Özeti
+Bu proje, mobil uygulama geliştirme meydan okuması kapsamında tasarlanmıştır. Temel odak noktası, özellikle **"Akılcı İlaç Kullanımı"** ve **"Kolonoskopi Hazırlığı"** gibi kritik süreçlerde yapılan hataları minimize etmek ve hasta eğitimini oyunlaştırma (gamification) ile desteklemektir.
 
-Icons: Lucide-React-Native
+### ✨ Öne Çıkan Özellikler
+* **🧩 İnteraktif Sıralama Oyunu:** Antibiyotik hazırlama adımlarını doğru sırayla dizme simülasyonu.
+* **📚 Eğitim Modülleri:** Akordeon yapısı ile organize edilmiş, okunabilirliği yüksek tıbbi rehberler.
+* **📝 Bilgi Testleri:** 10 soruluk interaktif quizler ile öğrenme sürecini ölçme ve değerlendirme.
+* **🎨 Klinik UI/UX:** Güven veren mavi ve başarıyı temsil eden yeşil tonlarıyla optimize edilmiş arayüz.
+* **💡 Günün İpucu:** Kullanıcıyı karşılayan dinamik sağlık bilgilendirmeleri.
 
-State Management: React Hooks (useState, useEffect)
-Expo Link: https://3002-706a42d4-1556-4cb3-bb42-665fb7d06121.orchids.cloud/
+### 🛠️ Teknolojik Altyapı
+| Teknoloji | Kullanım Amacı |
+| :--- | :--- |
+| **React Native** | Çapraz platform mobil geliştirme |
+| **Expo** | Hızlı prototipleme ve yayınlama |
+| **Lucide React** | Minimalist ve tıbbi ikon seti |
+| **State Hooks** | Uygulama içi durum yönetimi |
 
-🚀 How to Run
-Clone the repository: git clone https://github.com/yigittozdemirr/mobile-app-health
-Install dependencies: npm install
+---
 
-Start the project: npx expo start
+## 🇺🇸 English Version
 
-Scan the QR Code using the Expo Go app on your mobile device.
+### 🎯 Project Overview
+Developed as part of a competitive challenge, this app aims to digitize complex medical brochures. By focusing on **"Rational Drug Use"**, it helps patients understand their treatment process through interactive steps, reducing the risk of medical errors.
 
-______________________________________________________________________________________________________________________________________
+### ✨ Key Features
+* **🧩 Gamified Sequencing:** A step-by-step ordering task for medication preparation with real-time feedback.
+* **📚 Interactive Learning:** Professional accordion-style guides for medical procedures.
+* **📝 Knowledge Quizzes:** Multi-stage quizzes to track user comprehension levels.
+* **🎨 Medical-Grade UI:** High-contrast color palette optimized for accessibility and readability.
 
-🇹🇷 Türkçe Versiyon
-🎯 Proje Özeti
-Bu proje, bir Mobil Uygulama Geliştirme Challenge'ı kapsamında geliştirilmiştir. Amacı, karmaşık tıbbi talimatları (ilaç hazırlama ve cerrahi hazırlık gibi) kullanıcı dostu ve etkileşimli bir mobil deneyime dönüştürmektir. Uygulama, tıbbi hataları önlemek için "Akılcı İlaç Kullanımı" konusuna odaklanmaktadır.
+---
 
-✨ Temel Özellikler
-Oyunlaştırılmış Sıralama: İlaç hazırlama adımları (örn. toz antibiyotik hazırlama) için anlık geri bildirim veren etkileşimli "Sıralama Görevleri".
+## 🚀 Kurulum ve Çalıştırma / Installation
 
-Eğitici Modüller: Akordeon tarzı arayüz kullanılarak hazırlanan "Akılcı İlaç Kullanımı Nedir?" ve "Kolonoskopi Hazırlık Adımları" rehberleri.
+1.  **Repoyu Klonlayın / Clone the repo:**
+    ```bash
+    git clone [https://github.com/yigittozdemirr/mobile-app-health](https://github.com/yigittozdemirr/mobile-app-health)
+    ```
+2.  **Bağımlılıkları Yükleyin / Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Projeyi Başlatın / Start the project:**
+    ```bash
+    npx expo start
+    ```
+4.  **Test Etme:** Terminalde çıkan QR kodu **Expo Go** (Android/iOS) uygulaması ile taratın.
 
-Bilgi Testleri: Kullanıcı seviyesini ölçen, ilerleme göstergeli 10 soruluk çoktan seçmeli testler.
+---
 
-Modern Navigasyon: Profesyonel bir his için Drawer (Yan Menü) ve Stack navigasyon yapısı.
-
-Klinik UI/UX: Okunabilirlik için optimize edilmiş, güven veren temiz renk paleti (Mavi, Tıbbi Yeşil ve Uyarı Kırmızısı).
-
-🛠️ Kullanılan Teknolojiler
-Framework: React Native + Expo ⚛️
-
-Navigasyon: React Navigation (Drawer & Stack)
-
-İkonlar: Lucide-React-Native
-
-State Yönetimi: React Hooks (useState, useEffect)
-
-Expo Link: https://3002-706a42d4-1556-4cb3-bb42-665fb7d06121.orchids.cloud/
-
-🚀 Nasıl Çalıştırılır?
-Repoyu klonlayın: git clone https://github.com/yigittozdemirr/mobile-app-health
-
-Bağımlılıkları yükleyin: npm install
-
-Projeyi başlatın: npx expo start
-
-Mobil cihazınızdaki Expo Go uygulamasını kullanarak terminaldeki QR Kodu taratın.
+### 👨‍💻 Developer
+**Yiğit Özdemir** - [GitHub Profilim](https://github.com/yigittozdemirr)
