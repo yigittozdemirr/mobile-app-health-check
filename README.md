@@ -22,6 +22,7 @@ Navigation: React Navigation (Drawer & Stack)
 Icons: Lucide-React-Native
 
 State Management: React Hooks (useState, useEffect)
+Expo Link: https://3002-706a42d4-1556-4cb3-bb42-665fb7d06121.orchids.cloud/
 
 🚀 How to Run
 Clone the repository: git clone https://github.com/yigittozdemirr/mobile-app-health
@@ -56,6 +57,8 @@ Navigasyon: React Navigation (Drawer & Stack)
 İkonlar: Lucide-React-Native
 
 State Yönetimi: React Hooks (useState, useEffect)
+
+Expo Link: https://3002-706a42d4-1556-4cb3-bb42-665fb7d06121.orchids.cloud/
 
 🚀 Nasıl Çalıştırılır?
 Repoyu klonlayın: git clone https://github.com/yigittozdemirr/mobile-app-health
