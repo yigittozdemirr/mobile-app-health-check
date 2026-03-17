@@ -1,73 +1,76 @@
-# 🏥 MedGuide: Akılcı İlaç & Sağlık Asistanı
+# 🏥 MedGuide: Interactive Health & Medication Assistant
 
 [![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
 [![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-> **TR:** Karmaşık tıbbi talimatları etkileşimli ve anlaşılır bir mobil deneyime dönüştüren dijital sağlık rehberi.
-> 
-> **EN:** A digital health guide that transforms complex medical instructions into an interactive and easy-to-understand mobile experience.
+> An interactive digital health guide that transforms complex medical instructions—such as Rational Drug Use and Colonoscopy Preparation—into an engaging, easy-to-understand mobile experience.
 
 ---
 
-## 🔗 Live Preview / Canlı Önizleme
-Uygulamayı doğrudan test etmek için aşağıdaki linki kullanabilirsiniz:
-👉 **[Open in Expo (Live Preview)](https://3002-706a42d4-1556-4cb3-bb42-665fb7d06121.orchids.cloud/)**
+## 🔗 Live Preview & Demo
 
----
+- **Live Expo Preview:** [Test the app directly in your browser](https://3002-706a42d4-1556-4cb3-bb42-665fb7d06121.orchids.cloud/)
+- **Demo Video:** Check out `app_video.mp4` in the repository root for a complete walkthrough of the UI and interactive features.
 
-## 🇹🇷 Türkçe Versiyon
+## 🎯 Project Overview
 
-### 🎯 Proje Özeti
-Bu proje, mobil uygulama geliştirme meydan okuması kapsamında tasarlanmıştır. Temel odak noktası, özellikle **"Akılcı İlaç Kullanımı"** ve **"Kolonoskopi Hazırlığı"** gibi kritik süreçlerde yapılan hataları minimize etmek ve hasta eğitimini oyunlaştırma (gamification) ile desteklemektir.
+Developed to tackle challenges in patient education, MedGuide digitizes and gamifies complex medical brochures. By focusing on critical procedures and medication protocols, the application aims to minimize medical errors and improve patient compliance through interactive learning, step-by-step simulations, and knowledge assessments.
 
-### ✨ Öne Çıkan Özellikler
-* **🧩 İnteraktif Sıralama Oyunu:** Antibiyotik hazırlama adımlarını doğru sırayla dizme simülasyonu.
-* **📚 Eğitim Modülleri:** Akordeon yapısı ile organize edilmiş, okunabilirliği yüksek tıbbi rehberler.
-* **📝 Bilgi Testleri:** 10 soruluk interaktif quizler ile öğrenme sürecini ölçme ve değerlendirme.
-* **🎨 Klinik UI/UX:** Güven veren mavi ve başarıyı temsil eden yeşil tonlarıyla optimize edilmiş arayüz.
-* **💡 Günün İpucu:** Kullanıcıyı karşılayan dinamik sağlık bilgilendirmeleri.
+## ✨ Key Features
 
-### 🛠️ Teknolojik Altyapı
-| Teknoloji | Kullanım Amacı |
-| :--- | :--- |
-| **React Native** | Çapraz platform mobil geliştirme |
-| **Expo** | Hızlı prototipleme ve yayınlama |
-| **Lucide React** | Minimalist ve tıbbi ikon seti |
-| **State Hooks** | Uygulama içi durum yönetimi |
+- **🧩 Gamified Sequencing:** Interactive drag-and-drop simulation for correct medication preparation steps (e.g., antibiotic mixing).
+- **📚 Educational Modules:** Highly readable, accordion-style medical guides detailing procedure preparations.
+- **📝 Knowledge Quizzes:** Multi-stage interactive quizzes to evaluate and reinforce patient comprehension.
+- **💡 Daily Health Tips:** Dynamic, welcoming health insights presented on the home screen.
+- **🎨 Medical-Grade UI/UX:** A calming, high-contrast color palette (trust-inspiring blues and success-indicating greens) optimized for accessibility and readability.
 
----
+## 🛠️ Tech Stack & Architecture
 
-## 🇺🇸 English Version
+| Technology | Purpose |
+|------------|---------|
+| **React Native** | Core framework for cross-platform mobile development |
+| **Expo** | Rapid prototyping, module management, and deployment |
+| **Orchids Integration** | State-based architecture and boilerplate generation |
+| **React Hooks** | Internal state management for quizzes and interactive components |
+| **Lucide React** | Minimalist, medical-appropriate iconography |
 
-### 🎯 Project Overview
-Developed as part of a competitive challenge, this app aims to digitize complex medical brochures. By focusing on **"Rational Drug Use"**, it helps patients understand their treatment process through interactive steps, reducing the risk of medical errors.
+## 📁 Project Structure
 
-### ✨ Key Features
-* **🧩 Gamified Sequencing:** A step-by-step ordering task for medication preparation with real-time feedback.
-* **📚 Interactive Learning:** Professional accordion-style guides for medical procedures.
-* **📝 Knowledge Quizzes:** Multi-stage quizzes to track user comprehension levels.
-* **🎨 Medical-Grade UI:** High-contrast color palette optimized for accessibility and readability.
+```text
+.
+├── backend/                  # Backend configurations and logic
+├── frontend/                 # React Native mobile application source code
+├── app_video.mp4             # Full application demonstration video
+├── backend-tsconfig.json     # TypeScript configuration for backend modules
+├── package.json              # Main project dependencies and scripts
+├── root-package.json         # Workspace/monorepo configuration
+└── README.md                 # Project documentation
+```
 
----
+## 🚀 Local Development Setup
 
-## 🚀 Kurulum ve Çalıştırma / Installation
+## 1. Clone the repository
+```bash
+git clone [https://github.com/yigittozdemirr/mobile-app-health-check.git](https://github.com/yigittozdemirr/mobile-app-health-check.git)
+cd mobile-app-health-check
+```
 
-1.  **Repoyu Klonlayın / Clone the repo:**
-    ```bash
-    git clone [https://github.com/yigittozdemirr/mobile-app-health](https://github.com/yigittozdemirr/mobile-app-health)
-    ```
-2.  **Bağımlılıkları Yükleyin / Install dependencies:**
-    ```bash
-    npm install
-    ```
-3.  **Projeyi Başlatın / Start the project:**
-    ```bash
-    npx expo start
-    ```
-4.  **Test Etme:** Terminalde çıkan QR kodu **Expo Go** (Android/iOS) uygulaması ile taratın.
+## 2. Install dependencies
+```bash
+npm install
+```
 
----
+## 3. Start the project
+```bash
+npx expo start
+```
 
-### 👨‍💻 Developer
-**Yiğit Özdemir** - [GitHub Profilim](https://github.com/yigittozdemirr)
+4. Run on your device
+Scan the generated QR code using the Expo Go application on your Android or iOS device.
+
+👨‍💻 Developer
+Yiğit Özdemir
+Software Engineering Student | Mobile App Developer
+
+GitHub: [@yigittozdemirr](https://github.com/yigittozdemirr)
