@@ -3,7 +3,7 @@
 [![React Native](https://img.shields.io/badge/React%20Native-0.81-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactnative.dev/)
 [![Expo](https://img.shields.io/badge/Expo-54-000020?style=flat-square&logo=expo&logoColor=white)](https://expo.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 An interactive patient education app that turns complex medical instructions, such as rational drug use and colonoscopy preparation, into an easy-to-follow mobile experience. The app content is in Turkish.
 
@@ -59,4 +59,4 @@ Scan the QR code with Expo Go on your Android or iOS device.
 
 ## License
 
-MIT
+[MIT](LICENSE)
